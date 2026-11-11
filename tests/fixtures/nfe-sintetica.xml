@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- NF-e sintética para teste: dados fictícios, não é documento fiscal válido. -->
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+  <NFe>
+    <infNFe Id="NFe35261100000000000100550010000000011000000010" versao="4.00">
+      <ide><dhEmi>2026-11-03T10:00:00-03:00</dhEmi></ide>
+      <emit>
+        <CNPJ>00000000000100</CNPJ>
+        <enderEmit><UF>SP</UF></enderEmit>
+      </emit>
+      <dest><enderDest><UF>MG</UF></enderDest></dest>
+      <det nItem="1">
+        <prod>
+          <cProd>A001</cProd><xProd>ARROZ BRANCO TIPO 1 5KG</xProd><NCM>10063021</NCM>
+          <CFOP>6102</CFOP><qCom>10.0000</qCom><vProd>250.00</vProd>
+        </prod>
+        <imposto>
+          <ICMS><ICMS00><vICMS>30.00</vICMS></ICMS00></ICMS>
+          <PIS><PISAliq><vPIS>4.13</vPIS></PISAliq></PIS>
+          <COFINS><COFINSAliq><vCOFINS>19.00</vCOFINS></COFINSAliq></COFINS>
+        </imposto>
+      </det>
+      <det nItem="2">
+        <prod>
+          <cProd>B002</cProd><xProd>FURADEIRA ELETRICA 600W</xProd><NCM>84672100</NCM>
+          <CFOP>6102</CFOP><qCom>2.0000</qCom><vProd>600.00</vProd>
+        </prod>
+        <imposto>
+          <ICMS><ICMS20><vICMS>43.20</vICMS></ICMS20></ICMS>
+          <IPI><IPITrib><vIPI>30.00</vIPI></IPITrib></IPI>
+          <PIS><PISAliq><vPIS>9.90</vPIS></PISAliq></PIS>
+          <COFINS><COFINSAliq><vCOFINS>45.60</vCOFINS></COFINSAliq></COFINS>
+        </imposto>
+      </det>
+    </infNFe>
+  </NFe>
+</nfeProc>
