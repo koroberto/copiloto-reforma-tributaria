@@ -13,9 +13,9 @@ PMEs e escritórios contábeis não sabem responder perguntas práticas: "meu pr
 - **Quem paga:** os escritórios (assinatura por carteira de clientes) e as empresas médias.
 
 ## 3. Situação de uso
-- Planejar a formação de preço para o próximo ano da transição (ex.: antes da virada de 2026 para 2027).
+- Planejar a formação de preço para o próximo ano da transição (ex.: antes da virada de 2026 para 2027, quando a CBS passa a valer por inteiro e o PIS e a Cofins são extintos).
 - Revisar ou assinar contratos de fornecimento de longo prazo (cláusula de reequilíbrio tributário).
-- Reuniões de consultoria do escritório com o cliente.
+- Reuniões de consultoria do escritório com o cliente, como ferramenta de diagnóstico e de venda de serviço consultivo.
 - Quando saírem novas regulamentações ou alíquotas de referência.
 
 ## 4. Entrada
@@ -29,7 +29,7 @@ PMEs e escritórios contábeis não sabem responder perguntas práticas: "meu pr
 - Impacto em margem (% e R$) por produto e no total.
 - Alertas de preço priorizados, com preço sugerido para manter a margem.
 - Sinalização de regimes diferenciados (reduções de 60% e 100%, cesta básica, regimes específicos) para validação do contador.
-- Relatório exportável.
+- Relatório exportável, para o escritório apresentar ao cliente.
 
 ## 6. Tarefa da IA
 - **Classificação e enquadramento** do produto pela descrição e NCM, com nível de confiança.
@@ -42,4 +42,8 @@ O cálculo tributário é determinístico (regras e alíquotas parametrizadas). 
 ## 7. Função principal do MVP
 Subir os XMLs e o cadastro e receber, em poucos minutos, um diagnóstico de impacto por produto: carga antes e depois, variação de margem e lista de preços a rever.
 
-**Recorte sugerido:** um regime (Presumido ou Real), um setor (ex.: distribuição) e um ano-alvo.
+**Recorte sugerido:** um regime (Presumido ou Real), um setor (ex.: distribuição) e um ano-alvo, para reduzir a complexidade das regras e mostrar resultado rápido aos primeiros escritórios piloto.
+
+## Pontos a fechar com o grupo (leitura do e-mail em 11/11/2026)
+- **Um ano-alvo ou a série inteira:** a seção 5 pede a simulação em cada ano de 2026 a 2033, mas o recorte fala em um ano-alvo só. Sugestão: um ano no MVP (2027) e a série completa como evolução.
+- **Simples Nacional:** a entrada cita os três regimes, mas o recorte deixa o Simples de fora, e a maioria das PMEs está nele. Se continuar fora, registrar como limitação no artigo.
