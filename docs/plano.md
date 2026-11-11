@@ -8,7 +8,8 @@
 - Cuidados cobrados: verificação das respostas, entradas incompletas, proteção dos dados, limites para decisões automáticas e revisão humana (NIST AI RMF – GenAI Profile 2024).
 
 ## Decisões em aberto (fechar com o grupo)
-- [ ] Integrantes do Grupo 4 e quem faz cada parte
+- [x] Integrantes do Grupo 4: Caio Roberto, Danilo Almeida e Guilherme Monteiro
+- [ ] Quem faz cada parte
 - [ ] Regime do recorte: Lucro Presumido ou Lucro Real
 - [ ] Setor do recorte (sugestão: distribuição)
 - [ ] Ano-alvo da simulação (sugestão: 2027, quando a CBS entra inteira)

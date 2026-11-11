@@ -1,6 +1,6 @@
 # Copiloto da Reforma Tributária para PMEs
 
-Projeto Desafio do **Grupo 4** em Sistemas Inteligentes II (Pós em IA do Senac, Prof. Marcelo R. Batalha).
+Projeto Desafio do **Grupo 4** (Caio Roberto, Danilo Almeida e Guilherme Monteiro) em Sistemas Inteligentes II (Pós em IA do Senac, Prof. Marcelo R. Batalha).
 
 Em uma frase: transformar os dados fiscais que a empresa já tem (XMLs de NF-e e cadastro de produtos) em uma decisão clara de preço para a transição da Reforma Tributária (CBS e IBS no lugar de PIS, Cofins, IPI, ICMS e ISS, de 2026 a 2033).
 
