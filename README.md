@@ -45,12 +45,17 @@ XMLs NF-e + cadastro de produtos
 
 ```bash
 uv venv && uv pip install -r requirements.txt
-uv run pytest
+uv run pytest                 # testes
+uv run streamlit run app.py   # MVP em http://localhost:8501
 ```
+
+Integração automática com o Gemini (opcional): `export GEMINI_API_KEY=...` antes de abrir o app. Sem chave, use os modos Simulada ou Manual.
 
 ## Estrutura
 
 ```
+app.py                  interface Streamlit do MVP (Aula 04)
+copiloto/enquadramento.py  verificação da entrada, prompt V2, conferência da resposta, IA simulada/manual/integrada
 copiloto/nfe.py         leitura do XML da NF-e (itens, NCM, CFOP, valores e tributos)
 tests/                  testes com uma NF-e sintética
 dados/                  XMLs e cadastros de exemplo (nunca dados reais de cliente sem anonimizar)
