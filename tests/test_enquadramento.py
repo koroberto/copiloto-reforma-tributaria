@@ -37,6 +37,7 @@ def test_prompt_v2_leva_produto_e_ncm_formatado():
     prompt = montar_prompt(Entrada("Arroz", "10063021"))
     assert prompt.endswith('Produto: "Arroz" | NCM: 1006.30.21')
     assert "em REVISAO_HUMANA use sempre baixa" in prompt
+    assert "carnes" in prompt.split("REDUCAO_60:")[0]  # V3: carnes são Anexo I (alíquota zero)
 
 
 # ---- conferência da resposta da IA

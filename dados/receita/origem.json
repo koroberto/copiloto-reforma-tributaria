@@ -1,0 +1,11 @@
+{
+  "repositorio": "https://github.com/ReceitaFederal/calculadora-rtc-regime-regular",
+  "commit": "f1eebd7ce3157423b1a6aaca7dc1d6c3395452c4",
+  "data_commit": "2026-11-19T20:05:12-03:00",
+  "migracoes_aplicadas": 73,
+  "vigencia_em": "2026-11-23",
+  "linhas_ncm": 981,
+  "linhas_excecao": 75,
+  "licenca": "MIT",
+  "aviso": "Código e dados sem efeito normativo (Portaria Cotec nº 342/2026). Conferir a LC 214/2025."
+}

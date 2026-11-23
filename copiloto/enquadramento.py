@@ -5,6 +5,8 @@ resposta → sugestão para o contador decidir.
 
 A classificação pode vir de três jeitos, sempre identificados na tela:
 - SIMULADA: respostas do Gemini gravadas nos testes T1 a T6 da Aula 03 (prompt V2).
+
+Depois da IA, copiloto/tabela_oficial.py confere a categoria com a tabela oficial da Receita.
 - MANUAL: a pessoa cola o prompt num chat de IA e cola a resposta de volta.
 - INTEGRADA: chamada automática à API do Gemini, se houver GEMINI_API_KEY.
 """
@@ -29,13 +31,16 @@ ROTULOS = {
     "REVISAO_HUMANA": "Precisa de revisão humana",
 }
 
-# Prompt V2 da Aula 03 (entregas-grupo4/aula03/prompt-v2.txt), validado nos testes T1 a T6.
-PROMPT_V2 = """Você auxilia um escritório contábil a enquadrar produtos fictícios na Reforma Tributária (IBS e CBS, LC 214/2025).
+# Prompt V3 (Aula 04). Mudança em relação à V2 da Aula 03: os exemplos de cada opção foram
+# conferidos nos Anexos I, VII, VIII e XV da LC 214/2025, pela base da calculadora oficial da Receita.
+# A V2 punha carnes, queijos e massas em REDUCAO_60 (são Anexo I, alíquota zero) e tratava qualquer
+# produto de higiene como REDUCAO_60 (o Anexo VIII é uma lista fechada de 7 itens).
+PROMPT_V3 = """Você auxilia um escritório contábil a enquadrar produtos fictícios na Reforma Tributária (IBS e CBS, LC 214/2025).
 Tarefa: com base na descrição e no NCM do produto, sugira um enquadramento entre as opções abaixo.
 Opções:
-ALIQUOTA_ZERO: produtos da Cesta Básica Nacional (ex.: arroz, feijão, leite), hortícolas, frutas e ovos.
-REDUCAO_60: alimentos fora da cesta básica com redução prevista na lei (ex.: carnes, queijos, massas), produtos de higiene pessoal e limpeza, medicamentos e dispositivos médicos.
-PADRAO: demais produtos, sem redução.
+ALIQUOTA_ZERO: Cesta Básica Nacional (Anexo I: arroz, feijão, leite, manteiga, carnes, peixes, queijos tipo mozarela/minas/prato/coalho/ricota/requeijão/provolone/parmesão, massas não cozidas nem recheadas (1902.1), café, açúcar, farinha de trigo, pão francês, sal, mate) e hortícolas, frutas frescas e ovos (Anexo XV).
+REDUCAO_60: alimentos do Anexo VII (ex.: mel, crustáceos, leite fermentado, óleos vegetais, pão de forma, extrato de tomate, sucos e polpas sem açúcar), somente os 7 itens de higiene e limpeza do Anexo VIII (sabonete, creme dental, escova de dentes, papel higiênico, água sanitária, sabão em barra, fraldas), medicamentos e dispositivos médicos.
+PADRAO: demais produtos, sem redução (ex.: shampoo, desodorante e detergente não estão no Anexo VIII).
 REGIME_ESPECIFICO: combustíveis e outros bens com regime próprio na lei.
 REVISAO_HUMANA: descrição vaga, produto que mistura itens de enquadramentos diferentes, NCM ausente ou NCM que não corresponde à descrição.
 Use apenas as informações do produto. Não invente características que não estão na descrição.
@@ -89,7 +94,7 @@ def formatar_ncm(ncm: str) -> str:
 
 
 def montar_prompt(entrada: Entrada) -> str:
-    return PROMPT_V2.format(descricao=entrada.descricao, ncm=formatar_ncm(entrada.ncm))
+    return PROMPT_V3.format(descricao=entrada.descricao, ncm=formatar_ncm(entrada.ncm))
 
 
 # ---------------------------------------------------------------- 2. conferência da resposta
@@ -142,7 +147,7 @@ def conferir_resposta(texto: str | None, origem: str) -> Sugestao:
         alertas.append(f"Confiança inválida ({confianca or 'vazia'}): considerada baixa.")
         confianca = "baixa"
     if enquadramento == "REVISAO_HUMANA" and confianca != "baixa":
-        alertas.append("REVISAO_HUMANA sempre leva confiança baixa (regra do prompt V2).")
+        alertas.append("REVISAO_HUMANA sempre leva confiança baixa (regra do prompt).")
         confianca = "baixa"
     if not justificativa:
         alertas.append("A IA não justificou: confira antes de aceitar.")

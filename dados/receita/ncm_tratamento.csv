@@ -1,0 +1,982 @@
+ncma_id,ncm_prefixo,cclasstrib,descricao,anexo,reducao_pct
+500,0102,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1323,0102,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+501,0103,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1324,0103,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+502,0104,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1325,0104,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+497,01051,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1320,01051,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+504,01069000,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1327,01069000,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+44,0201,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+45,0202,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+48,0203,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+53,0204,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+46,02061000,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+47,02062,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+49,02063000,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+50,02064,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+56,02068000,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+57,02069000,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+58,0207,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+59,0207,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+51,020910,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+60,02099000,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+516,0210,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1339,0210,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+52,02101,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+2155,02102000,200003,Vendas de produtos destinados à alimentação humana (Anexo I),,100.0
+61,0210991,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+54,02109920,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+55,02109990,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+62,0302,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+63,0302,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+64,0302,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+65,0302,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+66,0302,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+67,0302,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+68,0303,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+69,0303,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+70,0303,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+71,0303,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+72,0303,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+73,0303,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+74,0304,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+75,0304,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+76,0304,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+77,0304,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+78,0304,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+319,03061,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+320,03061,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+321,03063,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+322,03063,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+323,03063,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+324,03073100,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+325,03073200,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+326,03074200,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+327,030743,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+2158,03074900,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),,60.0
+2159,03074900,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),,60.0
+328,03075100,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+329,03075200,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+330,03079100,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+331,03079200,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+517,0309,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1340,0309,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+4,04011010,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+5,04011090,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+6,04012010,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+7,04012090,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+8,04014010,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+9,04015010,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+10,04021010,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+11,04021090,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+12,04022110,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+13,04022120,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+14,04022910,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+15,04022920,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+332,04032000,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+333,04039000,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+19,04051000,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+79,04061010,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+80,04061090,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+81,04062000,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+82,04069010,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+83,04069020,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+84,04069030,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+503,04071,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1326,04071,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+974,04072,200014,"Fornecimento dos produtos hortícolas, frutas e ovos (Anexo XV)",XV,100.0
+335,04090000,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+439,0506,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1262,0506,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+498,05111000,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1321,05111000,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+499,05119,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1322,05119,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+994,06,200014,"Fornecimento dos produtos hortícolas, frutas e ovos (Anexo XV)",XV,100.0
+490,0601,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1313,0601,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+491,0602,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1314,0602,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+362,07,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+363,07,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+364,07,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+365,07,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+366,07,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+367,07,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+368,07,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+369,07,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+370,07,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+371,07,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+372,07,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+373,07,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+374,07,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+375,07,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+376,07,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+487,07,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1310,07,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+975,0701,200014,"Fornecimento dos produtos hortícolas, frutas e ovos (Anexo XV)",XV,100.0
+976,07020000,200014,"Fornecimento dos produtos hortícolas, frutas e ovos (Anexo XV)",XV,100.0
+977,0703,200014,"Fornecimento dos produtos hortícolas, frutas e ovos (Anexo XV)",XV,100.0
+978,0704,200014,"Fornecimento dos produtos hortícolas, frutas e ovos (Anexo XV)",XV,100.0
+979,0705,200014,"Fornecimento dos produtos hortícolas, frutas e ovos (Anexo XV)",XV,100.0
+980,0706,200014,"Fornecimento dos produtos hortícolas, frutas e ovos (Anexo XV)",XV,100.0
+981,07070000,200014,"Fornecimento dos produtos hortícolas, frutas e ovos (Anexo XV)",XV,100.0
+982,0708,200014,"Fornecimento dos produtos hortícolas, frutas e ovos (Anexo XV)",XV,100.0
+983,0709,200014,"Fornecimento dos produtos hortícolas, frutas e ovos (Anexo XV)",XV,100.0
+377,07095,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+984,0710,200014,"Fornecimento dos produtos hortícolas, frutas e ovos (Anexo XV)",XV,100.0
+378,07108000,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+518,07129010,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1341,07129010,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+21,07133319,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+22,07133329,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+23,07133399,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+24,07133590,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+995,0714,200014,"Fornecimento dos produtos hortícolas, frutas e ovos (Anexo XV)",XV,100.0
+379,08,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+380,08,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+381,08,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+382,08,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+383,08,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+384,08,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+385,08,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+386,08,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+387,08,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+388,08,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+389,08,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+390,08,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+996,08011,200014,"Fornecimento dos produtos hortícolas, frutas e ovos (Anexo XV)",XV,100.0
+985,0803,200014,"Fornecimento dos produtos hortícolas, frutas e ovos (Anexo XV)",XV,100.0
+986,0804,200014,"Fornecimento dos produtos hortícolas, frutas e ovos (Anexo XV)",XV,100.0
+987,0805,200014,"Fornecimento dos produtos hortícolas, frutas e ovos (Anexo XV)",XV,100.0
+988,0806,200014,"Fornecimento dos produtos hortícolas, frutas e ovos (Anexo XV)",XV,100.0
+989,0807,200014,"Fornecimento dos produtos hortícolas, frutas e ovos (Anexo XV)",XV,100.0
+990,0808,200014,"Fornecimento dos produtos hortícolas, frutas e ovos (Anexo XV)",XV,100.0
+991,0809,200014,"Fornecimento dos produtos hortícolas, frutas e ovos (Anexo XV)",XV,100.0
+992,0810,200014,"Fornecimento dos produtos hortícolas, frutas e ovos (Anexo XV)",XV,100.0
+993,0811,200014,"Fornecimento dos produtos hortícolas, frutas e ovos (Anexo XV)",XV,100.0
+25,0901,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+87,0903,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+391,10,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+392,10,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+393,10,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+488,10,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+506,10,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1311,10,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+1329,10,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+1,100620,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+2,100630,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+3,10064000,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+507,11,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1330,11,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+336,110100,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+34,11010010,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+337,1102,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+338,1102,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+30,11022000,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+43,11029000,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+342,11031100,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+31,11031300,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+343,11031900,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+344,11041,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+345,11041,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+41,11041200,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+32,11041900,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+346,11042,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+347,11042,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+42,11042200,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+33,11042300,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+339,1105,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+340,1106,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+28,11062000,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+348,11081200,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+394,12,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+395,12,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+396,12,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+397,12,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+398,12,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+399,12,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+400,12,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+401,12,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+402,12,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+403,12,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+404,12,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+405,12,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+406,12,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+407,12,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+408,12,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+409,12,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+410,12,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+411,12,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+412,12,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+489,12,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+508,12,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1312,12,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+1331,12,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+440,12011000,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1263,12011000,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+341,1208,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+435,1211,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1258,1211,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+441,12130000,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1264,12130000,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+442,13019090,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1265,13019090,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+443,1302199,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1266,1302199,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+444,14019000,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1267,14019000,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+445,14049090,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1268,14049090,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+519,15,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1342,15,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+349,150790,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+350,1508,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+351,1511,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+352,1512,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+353,1513,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+1245,15131900,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+317,15131900,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+27,15132120,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+1246,15132911,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+318,15132911,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+354,1514,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+355,1515,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+20,15171000,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+35,17011400,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+36,17019900,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+1221,17023011,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+293,17023011,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1217,17025000,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+289,17025000,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+16,19011010,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+17,19011090,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+39,19012010,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+40,19012090,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+88,19019090,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+37,19021,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+89,19021900,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+356,19022000,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+357,19023000,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+29,19030000,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+360,19059010,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+38,19059090,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+1175,20021000,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+247,20021000,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+415,20021000,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+361,20029000,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+413,2004,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+414,2005,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+359,2008,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+416,20081,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+358,2009,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+26,21011,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+446,21022000,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1269,21022000,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+537,21069030,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1356,21069030,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+18,21069090,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+90,21069090,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+1202,21069090,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+1203,21069090,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+1204,21069090,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+1205,21069090,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+1206,21069090,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+1207,21069090,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+1208,21069090,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+1209,21069090,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+274,21069090,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+275,21069090,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+276,21069090,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+277,21069090,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+278,21069090,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+279,21069090,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+280,21069090,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+281,21069090,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1210,22029900,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+1211,22029900,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+282,22029900,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+283,22029900,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+334,22029900,200034,Fornecimento dos alimentos destinados ao consumo humano (Anexo VII),VII,60.0
+509,2301,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1332,2301,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+447,2302,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+510,2302,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1270,2302,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+1333,2302,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+448,2303,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+511,2303,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1271,2303,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+1334,2303,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+998,23032000,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),X,60.0
+997,23033000,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),X,60.0
+449,230400,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+512,230400,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1272,230400,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+1335,230400,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+513,230500,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1336,230500,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+450,23050000,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1273,23050000,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+451,2306,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+514,2306,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1274,2306,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+1337,2306,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+452,23080000,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+515,23080000,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1275,23080000,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+1338,23080000,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+505,230990,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1328,230990,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+429,25,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1252,25,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+520,250100,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1343,250100,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+85,25010020,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+86,25010090,200003,Vendas de produtos destinados à alimentação humana (Anexo I),I,100.0
+1193,25010090,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+265,25010090,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+468,25030010,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1291,25030010,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+469,25030090,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1292,25030090,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+470,25101010,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1293,25101010,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+471,25101090,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1294,25101090,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+472,25102010,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1295,25102010,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+473,25102090,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1296,25102090,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+521,25210000,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1344,25210000,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+453,27030000,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1276,27030000,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+474,28020000,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1297,28020000,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+475,28061020,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1298,28061020,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+476,28070010,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1299,28070010,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+477,28080010,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1300,28080010,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+478,28092011,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1301,28092011,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+479,28092019,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1302,28092019,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+480,28111920,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1303,28111920,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+1174,28111990,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+246,28111990,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+481,28151100,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1304,28151100,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+482,28151200,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1305,28151200,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+1186,28272010,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+258,28272010,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1187,28272090,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+259,28272090,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1188,28273110,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+260,28273110,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1189,28273190,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+261,28273190,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1185,28273993,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+257,28273993,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1190,28273995,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+262,28273995,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1194,28273998,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+266,28273998,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1224,28276012,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+296,28276012,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1239,28332100,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+311,28332100,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1240,28332970,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+312,28332970,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1214,28352200,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+286,28352200,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1212,28352400,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+1213,28352400,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+284,28352400,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+285,28352400,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+483,28362010,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1306,28362010,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+484,28362090,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1307,28362090,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+1181,28363000,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+253,28363000,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+454,28399010,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1277,28399010,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+455,28399050,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1278,28399050,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+1236,28429000,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+308,28429000,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1061,28444390,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+131,28444390,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1238,29054400,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+310,29054400,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1167,29152100,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+239,29152100,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+485,29152100,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1308,29152100,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+1164,29152910,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+236,29152910,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1163,29152990,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+1165,29152990,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+235,29152990,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+237,29152990,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1170,29181400,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+242,29181400,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1220,29181610,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+292,29181610,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1173,29181990,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+245,29181990,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1218,29199090,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+290,29199090,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+456,29224,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1279,29224,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+1229,29224110,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+301,29224110,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1162,29224190,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+234,29224190,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1172,29224210,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+244,29224210,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1219,29224910,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+291,29224910,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1169,29224990,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+1176,29224990,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+1177,29224990,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+1180,29224990,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+1200,29224990,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+1225,29224990,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+1227,29224990,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+1228,29224990,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+1234,29224990,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+1241,29224990,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+241,29224990,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+248,29224990,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+249,29224990,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+252,29224990,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+272,29224990,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+297,29224990,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+299,29224990,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+300,29224990,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+306,29224990,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+313,29224990,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1166,29225039,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+1242,29225039,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+238,29225039,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+314,29225039,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1237,29225099,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+1244,29225099,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+309,29225099,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+316,29225099,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1226,29232000,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+298,29232000,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1179,29252919,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+251,29252919,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+457,293040,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+522,293040,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1280,293040,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+1345,293040,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+1230,29304010,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+302,29304010,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1231,29304090,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+303,29304090,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1184,29309039,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+256,29309039,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1222,29332992,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+294,29332992,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1233,29362113,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+305,29362113,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1196,29362210,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+268,29362210,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1197,29362290,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+1215,29362290,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+269,29362290,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+287,29362290,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1235,29362310,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+307,29362310,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1216,29362320,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+288,29362320,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1195,29362520,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+267,29362520,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1183,29362610,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+255,29362610,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1168,29362710,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+240,29362710,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1243,29362811,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+315,29362811,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1161,29362812,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+233,29362812,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1171,29362911,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+243,29362911,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1198,29362921,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+270,29362921,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1199,29362929,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+271,29362929,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1182,29362931,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+254,29362931,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1201,29362940,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+273,29362940,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1232,29362952,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+304,29362952,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+492,300212,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1315,300212,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+1069,30021221,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1072,30021221,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+139,30021221,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+142,30021221,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1070,30021222,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+140,30021222,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1071,30021223,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+141,30021223,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1073,30021229,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+143,30021229,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1178,30021236,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+250,30021236,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+493,300215,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1316,300215,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+494,300242,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1317,300242,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+430,300249,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1253,300249,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+431,30029000,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+495,30029000,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1254,30029000,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+1318,30029000,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+496,3004,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1319,3004,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+1025,30049099,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1029,30049099,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+95,30049099,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+99,30049099,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1056,30059090,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+126,30059090,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1044,300610,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+114,300610,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1057,30061090,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+127,30061090,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1075,30063021,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+145,30063021,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1076,30064012,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+146,30064012,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1024,30064020,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+94,30064020,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1077,30067000,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+147,30067000,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1078,30069110,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+148,30069110,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1079,30069190,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+149,30069190,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+425,31,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1248,31,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+424,31010000,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1247,31010000,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+1191,31042010,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+263,31042010,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+1192,31042090,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+264,31042090,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+458,3301,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1281,3301,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+418,33061000,200035,Fornecimento dos produtos de higiene pessoal e limpeza (Anexo VIII),VIII,60.0
+417,34011190,200035,Fornecimento dos produtos de higiene pessoal e limpeza (Anexo VIII),VIII,60.0
+422,34011900,200035,Fornecimento dos produtos de higiene pessoal e limpeza (Anexo VIII),VIII,60.0
+1223,35051000,200011,Fornecimento das composições para nutrição enteral e parenteral quando adquiridas por órgãos da administração pública (Anexo VI),VI,100.0
+295,35051000,200033,Fornecimento das composições para nutrição enteral e parenteral (Anexo VI),VI,60.0
+486,3507904,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1309,3507904,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+534,36020000,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1353,36020000,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+1023,37011010,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+93,37011010,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1049,37011029,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+119,37011029,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1040,37021010,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+110,37021010,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1039,37021020,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+109,37021020,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+459,38029040,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1282,38029040,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+460,380400,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1283,380400,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+434,38070000,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1257,38070000,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+436,3808,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+437,3808,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1259,3808,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+1260,3808,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+421,38089419,200035,Fornecimento dos produtos de higiene pessoal e limpeza (Anexo VIII),VIII,60.0
+1101,38210000,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+171,38210000,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+432,38210000,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1255,38210000,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+1074,38221,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+144,38221,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+433,3824,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1256,3824,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+461,38249971,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1284,38249971,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+426,38249977,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1249,38249977,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+427,38249979,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1250,38249979,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+1119,38249989,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+189,38249989,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+428,38249989,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+438,38249989,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1251,38249989,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+1261,38249989,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+1027,391740,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1028,391740,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+97,391740,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+98,391740,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1021,39269030,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1080,39269030,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+91,39269030,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+150,39269030,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1026,39269040,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1081,39269040,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+96,39269040,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+151,39269040,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1082,39269050,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+152,39269050,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1117,40141000,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+187,40141000,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1083,40151,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+153,40151,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+462,44013900,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1285,44013900,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+463,44014,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1286,44014,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+464,44029000,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1287,44029000,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+465,47010000,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1288,47010000,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+420,48181000,200035,Fornecimento dos produtos de higiene pessoal e limpeza (Anexo VIII),VIII,60.0
+523,49119100,200039,"Fornecimento dos bens e serviços relacionados com produções nacionais artísticas, culturais, de eventos, jornalísticas e audiovisuais (Anexo X)",X,60.0
+466,53050090,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1289,53050090,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+1145,66020000,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+216,66020000,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+467,68062000,200038,Fornecimento dos insumos agropecuários e aquícolas (Anexo IX),IX,60.0
+1290,68062000,515001,"Operações, sujeitas a diferimento, com insumos agropecuários e aquícolas (Anexo IX)",IX,60.0
+585,83024100,200007,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo XIII),XIII,100.0
+1099,84198110,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+169,84198110,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1102,84198999,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+172,84198999,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1103,84199040,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+173,84199040,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1046,84212911,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+116,84212911,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1041,84212990,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1042,84212990,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1043,84212990,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+111,84212990,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+112,84212990,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+113,84212990,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1144,84253110,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+215,84253110,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+1142,84289090,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+213,84289090,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+1156,84433222,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+227,84433222,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+1150,84701000,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+221,84701000,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+1151,84702900,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+222,84702900,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+557,84714900,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1376,84714900,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+555,84715090,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1374,84715090,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+1160,84716053,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+232,84716053,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+1154,84716090,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+225,84716090,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+2157,84718000,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),,100.0
+2156,84718000,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),,60.0
+554,84719014,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1373,84719014,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+1155,84729099,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+226,84729099,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+1104,84798912,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+174,84798912,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1063,84798999,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+133,84798999,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1157,85171,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+229,85171,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+558,85176234,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1377,85176234,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+559,8517624,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1378,8517624,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+551,85176259,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+552,85176259,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+556,85176259,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1370,85176259,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+1371,85176259,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+1375,85176259,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+560,8517627,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1379,8517627,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+561,852351,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+562,852351,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1380,852351,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+1381,852351,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+553,852352,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1372,852352,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+536,85258929,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1355,85258929,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+532,85261000,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1351,85261000,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+1152,85437099,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+223,85437099,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+531,8701,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1350,8701,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+1138,87082999,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+1140,87082999,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+1141,87082999,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+1143,87082999,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+208,87082999,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+210,87082999,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+211,87082999,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+214,87082999,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+1133,87089910,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+1134,87089910,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+1135,87089910,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+1136,87089910,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+1137,87089910,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+1139,87089910,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+203,87089910,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+204,87089910,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+205,87089910,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+206,87089910,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+207,87089910,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+209,87089910,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+527,8709,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+529,8709,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1346,8709,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+1348,8709,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+528,87100000,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1347,87100000,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+586,87131000,200007,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo XIII),XIII,100.0
+587,87139000,200007,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo XIII),XIII,100.0
+588,87142000,200007,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo XIII),XIII,100.0
+541,8802,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1360,8802,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+543,88026000,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1362,88026000,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+544,88040000,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1363,88040000,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+547,8805,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1366,8805,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+545,88051000,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1364,88051000,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+546,88052100,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1365,88052100,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+542,8806,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1361,8806,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+549,89012000,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1368,89012000,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+550,89061000,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1369,89061000,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+548,901420,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1367,901420,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+1153,90172000,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+224,90172000,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+563,90181100,200004,Fornecimento de dispositivos médicos (Anexo XII),XII,100.0
+584,901812,200004,Fornecimento de dispositivos médicos (Anexo XII),XII,100.0
+583,90181300,200004,Fornecimento de dispositivos médicos (Anexo XII),XII,100.0
+564,90181980,200004,Fornecimento de dispositivos médicos (Anexo XII),XII,100.0
+565,90181980,200004,Fornecimento de dispositivos médicos (Anexo XII),XII,100.0
+581,90181980,200004,Fornecimento de dispositivos médicos (Anexo XII),XII,100.0
+2160,90181990,200004,Fornecimento de dispositivos médicos (Anexo XII),,100.0
+566,901820,200004,Fornecimento de dispositivos médicos (Anexo XII),XII,100.0
+1096,90182010,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+166,90182010,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1084,901831,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+154,901831,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1085,901832,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+155,901832,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1086,90183910,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+156,90183910,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1087,9018392,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+157,9018392,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1124,90183929,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1125,90183929,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1126,90183929,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1127,90183929,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1130,90183929,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1131,90183929,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+194,90183929,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+195,90183929,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+196,90183929,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+197,90183929,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+200,90183929,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+201,90183929,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1088,90183930,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+158,90183930,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1089,9018399,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+159,9018399,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1129,90183991,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+199,90183991,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1093,90183999,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1128,90183999,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+163,90183999,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+198,90183999,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1090,9018491,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+160,9018491,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1091,90184920,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+161,90184920,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1100,90185090,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+170,90185090,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+582,90189010,200004,Fornecimento de dispositivos médicos (Anexo XII),XII,100.0
+1030,90189010,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+100,90189010,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1097,90189021,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+167,90189021,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1045,90189040,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1054,90189040,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+115,90189040,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+124,90189040,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1092,90189095,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+162,90189095,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+576,90189099,200004,Fornecimento de dispositivos médicos (Anexo XII),XII,100.0
+1022,90189099,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1050,90189099,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1051,90189099,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1052,90189099,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1053,90189099,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1094,90189099,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1098,90189099,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1118,90189099,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1132,90189099,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+92,90189099,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+120,90189099,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+121,90189099,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+122,90189099,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+123,90189099,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+164,90189099,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+168,90189099,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+188,90189099,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+202,90189099,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+580,90192040,200004,Fornecimento de dispositivos médicos (Anexo XII),XII,100.0
+567,90211010,200004,Fornecimento de dispositivos médicos (Anexo XII),XII,100.0
+1065,90211010,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+135,90211010,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+568,90211020,200004,Fornecimento de dispositivos médicos (Anexo XII),XII,100.0
+1066,90211020,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+136,90211020,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1064,90212900,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+134,90212900,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+569,90213,200004,Fornecimento de dispositivos médicos (Anexo XII),XII,100.0
+570,90213,200004,Fornecimento de dispositivos médicos (Anexo XII),XII,100.0
+589,90214000,200007,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo XIII),XIII,100.0
+1047,90215000,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1048,90215000,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+117,90215000,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+118,90215000,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1067,90219011,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+137,90219011,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1062,90219012,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1068,90219012,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+132,90219012,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+138,90219012,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1031,90219019,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1032,90219019,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1038,90219019,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1055,90219019,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1058,90219019,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1060,90219019,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+591,90219019,200007,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo XIII),XIII,100.0
+101,90219019,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+102,90219019,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+108,90219019,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+125,90219019,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+128,90219019,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+130,90219019,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1033,90219080,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+103,90219080,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1059,90219089,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+129,90219089,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1034,90219091,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1035,90219091,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1036,90219091,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1037,90219091,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1120,90219091,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+104,90219091,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+105,90219091,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+106,90219091,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+107,90219091,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+190,90219091,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+590,90219092,200007,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo XIII),XIII,100.0
+1121,90219099,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1122,90219099,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1123,90219099,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+191,90219099,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+192,90219099,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+193,90219099,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+571,90221200,200004,Fornecimento de dispositivos médicos (Anexo XII),XII,100.0
+572,902213,200004,Fornecimento de dispositivos médicos (Anexo XII),XII,100.0
+573,902214,200004,Fornecimento de dispositivos médicos (Anexo XII),XII,100.0
+574,902219,200004,Fornecimento de dispositivos médicos (Anexo XII),XII,100.0
+575,90222110,200004,Fornecimento de dispositivos médicos (Anexo XII),XII,100.0
+577,90222120,200004,Fornecimento de dispositivos médicos (Anexo XII),XII,100.0
+578,90222190,200004,Fornecimento de dispositivos médicos (Anexo XII),XII,100.0
+579,9025,200004,Fornecimento de dispositivos médicos (Anexo XII),XII,100.0
+1149,90251990,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+220,90251990,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+1105,90272012,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+175,90272012,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1106,90272021,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+176,90272021,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1107,90272029,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+177,90272029,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1108,902730,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+178,902730,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1109,90275020,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+179,90275020,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1110,90275050,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+180,90275050,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1111,90275090,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+181,90275090,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1113,90278100,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+183,90278100,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1112,90278999,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+1114,90278999,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+182,90278999,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+184,90278999,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1115,90279010,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+185,90279010,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+1116,9027909,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+186,9027909,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+530,90318099,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1349,90318099,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+1146,91021110,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+217,91021110,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+1147,91021190,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+218,91021190,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+1148,91029100,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+219,91029100,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+1158,91031000,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+230,91031000,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+1159,91051100,200008,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência adquiridos por órgãos da administração pública (Anexo V),V,100.0
+231,91051100,200031,Fornecimento dos dispositivos de acessibilidade próprios para pessoas com deficiência (Anexo V),V,60.0
+533,93012000,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1352,93012000,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+535,9306,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+538,9306,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+540,9306,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1354,9306,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+1357,9306,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+1359,9306,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+539,93062,200043,Fornecimento à administração pública dos serviços e dos bens relativos à soberania (Anexo XI),XI,60.0
+1358,93062,200044,Operações e prestações de serviços de segurança da informação e segurança cibernética desenvolvidos por sociedade que tenha sócio brasileiro (Anexo XI),XI,60.0
+1095,940290,200005,Fornecimento de dispositivos médicos para órgãos da administração pública e entidades de saúde imunes (Anexo IV),IV,100.0
+165,940290,200030,Venda dos dispositivos médicos (Anexo IV),IV,60.0
+419,96032100,200035,Fornecimento dos produtos de higiene pessoal e limpeza (Anexo VIII),VIII,60.0
+423,96190000,200035,Fornecimento dos produtos de higiene pessoal e limpeza (Anexo VIII),VIII,60.0
+524,97019100,200039,"Fornecimento dos bens e serviços relacionados com produções nacionais artísticas, culturais, de eventos, jornalísticas e audiovisuais (Anexo X)",X,60.0
+525,97029000,200039,"Fornecimento dos bens e serviços relacionados com produções nacionais artísticas, culturais, de eventos, jornalísticas e audiovisuais (Anexo X)",X,60.0
+526,97039000,200039,"Fornecimento dos bens e serviços relacionados com produções nacionais artísticas, culturais, de eventos, jornalísticas e audiovisuais (Anexo X)",X,60.0

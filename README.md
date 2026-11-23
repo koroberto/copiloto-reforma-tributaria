@@ -21,6 +21,8 @@ Em uma frase: transformar os dados fiscais que a empresa já tem (XMLs de NF-e e
 
 Toda sugestão de enquadramento passa por **revisão humana do contador**.
 
+A sugestão da IA é conferida com a **tabela oficial da Receita** (NCM por anexo da LC 214/2025), tirada da calculadora de código aberto que a Receita publicou no GitHub em novembro de 2026 (licença MIT, sem efeito normativo). Redução de alíquota sem respaldo na tabela vai para revisão; padrão com NCM que aparece em algum anexo gera alerta. Para atualizar a tabela: `python scripts/tabela_receita.py <clone-da-calculadora>`.
+
 ## Recorte do MVP
 
 Um regime (Lucro Presumido ou Real, a decidir), um setor (ex.: distribuição) e um ano-alvo da simulação. Fluxo:
@@ -55,7 +57,10 @@ Integração automática com o Gemini (opcional): `export GEMINI_API_KEY=...` an
 
 ```
 app.py                  interface Streamlit do MVP (Aula 04)
-copiloto/enquadramento.py  verificação da entrada, prompt V2, conferência da resposta, IA simulada/manual/integrada
+copiloto/enquadramento.py  verificação da entrada, prompt V3, conferência da resposta, IA simulada/manual/integrada
+copiloto/tabela_oficial.py confere a sugestão da IA com a tabela oficial da Receita (NCM por anexo da LC 214)
+scripts/tabela_receita.py  extrai essa tabela da calculadora oficial (github.com/ReceitaFederal/calculadora-rtc-regime-regular)
+dados/receita/          tabela extraída (CSV) e origem.json com o commit da Receita usado
 copiloto/nfe.py         leitura do XML da NF-e (itens, NCM, CFOP, valores e tributos)
 tests/                  testes com uma NF-e sintética
 dados/                  XMLs e cadastros de exemplo (nunca dados reais de cliente sem anonimizar)
