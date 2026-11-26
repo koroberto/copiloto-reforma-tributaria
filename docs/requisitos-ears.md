@@ -34,6 +34,8 @@ Formato EARS, como na Aula 07 de Construção de Assistentes (EARS → BDD → T
 - **REQ-16** Se o contador escolher uma redução sem informar um cClassTrib possível, ou PADRAO com código diferente de 000001, o sistema deve recusar a decisão e dizer o motivo.
 - **REQ-17** Quando o contador muda um item aprovado automaticamente, o sistema deve registrar a decisão como do contador.
 - **REQ-18** Enquanto houver item pendente, o sistema deve bloquear o download da planilha de saída.
+- **REQ-20** Enquanto o modo Simulada estiver ativo, quando o contador consulta um único produto que está no cadastro de exemplo ou nos casos T1 a T6, o sistema deve devolver a resposta gravada do Gemini, sem diferenciar maiúsculas, acentos, pontuação e espaços.
+- **REQ-21** Se, no modo Simulada, o produto consultado não tiver resposta gravada, o sistema deve dizer que é um modo de demonstração e indicar o que fazer (escolher um produto de exemplo ou usar o modo Manual), sem sugerir enquadramento.
 - **REQ-19** O sistema deve exportar, por item, código, descrição, NCM, enquadramento, cClassTrib, descrição do cClassTrib, anexo e quem decidiu, em CSV que abre direto no Excel.
 
 ## Requisito → teste
@@ -54,6 +56,7 @@ Formato EARS, como na Aula 07 de Construção de Assistentes (EARS → BDD → T
 | REQ-13, REQ-14 | `test_lote.py::test_REQ13_REQ14_*`, `test_tabela_oficial.py` (casos ATENCAO) |
 | REQ-15, REQ-16, REQ-19 | `test_lote.py::test_REQ15_REQ16_REQ19_*` |
 | REQ-17 | `test_lote.py::test_REQ17_*` |
+| REQ-20, REQ-21 | `test_lote.py::test_REQ20_*`, `test_lote.py::test_REQ21_*` |
 | REQ-18 | `test_lote.py::test_REQ18_*` (contagem de pendentes; o botão desabilitado foi conferido na tela) |
 
 ## Teste de mutação

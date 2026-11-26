@@ -273,3 +273,33 @@ def test_REQ18_pendentes_contam_ate_a_fila_zerar():
     aplicar_linhas([{"nº": 13, "aceitar sugestão": True}], por_id)
     assert resumo(itens) == {"itens": 34, "automáticos": 27, "revisados": 1, "pendentes": 6}
 
+
+# ------------------------------------------------- modo Simulada na consulta de um produto (REQ-20, REQ-21)
+
+def test_REQ20_produto_do_cadastro_de_exemplo_tem_resposta_gravada_mesmo_digitado_diferente():
+    from copiloto.enquadramento import verificar_entrada
+    entrada = verificar_entrada("Margarina com sal 500 g", "1517.10.00").entrada
+    s = lote.sugestao_simulada(entrada)
+    assert s.origem == "SIMULADA"
+    assert s.enquadramento == "PADRAO"  # o erro real do Gemini, que a tabela oficial pega depois
+
+
+def test_REQ20_caso_de_teste_com_acento_e_caixa_diferentes():
+    from copiloto.enquadramento import verificar_entrada
+    entrada = verificar_entrada("SABONETE EM BARRA 90G", "34011190").entrada
+    assert lote.sugestao_simulada(entrada).enquadramento == "REDUCAO_60"
+
+
+def test_REQ21_produto_sem_gravacao_explica_que_e_demonstracao():
+    from copiloto.enquadramento import verificar_entrada
+    entrada = verificar_entrada("Parafuso sextavado 10 mm", "7318.15.00").entrada
+    with pytest.raises(IAIndisponivel) as erro:
+        lote.sugestao_simulada(entrada)
+    assert "demonstração" in str(erro.value)
+    assert "Manual" in str(erro.value)
+
+
+def test_REQ20_lista_de_produtos_de_demonstracao_tem_exemplo_e_casos_de_teste():
+    produtos = lote.produtos_simulados()
+    assert len(produtos) == 6 + 34
+    assert ("MARGARINA COM SAL 500G", "1517.10.00") in produtos
