@@ -13,7 +13,7 @@ import streamlit as st
 
 from copiloto import lote as lt
 from copiloto.enquadramento import (CASOS_DE_TESTE, ROTULOS, IAIndisponivel, classificar_gemini,
-                                    classificar_simulado, conferir_resposta, formatar_ncm,
+                                    conferir_resposta, formatar_ncm,
                                     montar_prompt, verificar_entrada)
 from copiloto.nfe import ler_nfe
 from copiloto.tabela_oficial import conferir, origem
@@ -229,6 +229,14 @@ with aba_produto:
             if colunas[n % 3].button(f"{id_} · {tipo}: {desc[:28]}", key=f"caso_{id_}", width="stretch"):
                 st.session_state.descricao, st.session_state.ncm = desc, ncm_caso
                 st.session_state.pop("resultado", None)
+        if modo == "SIMULADA":
+            demo = st.selectbox("Ou um produto do cadastro de exemplo (resposta gravada do Gemini)",
+                                lt.produtos_simulados()[6:], index=None, placeholder="Escolha um produto",
+                                format_func=lambda p: f"{p[0]} · NCM {p[1]}")
+            if demo and st.button("Usar este produto", key="usar_demo"):
+                st.session_state.descricao, st.session_state.ncm = demo
+                st.session_state.pop("resultado", None)
+                st.rerun()
         xml = st.file_uploader("XML da NF-e", type="xml", key="xml_um")
         if xml is None and st.checkbox("Usar a NF-e sintética de exemplo"):
             xml = Path(__file__).parent / "tests" / "fixtures" / "nfe-sintetica.xml"
@@ -260,9 +268,9 @@ with aba_produto:
         if verif.ok and modo != "MANUAL":
             try:
                 with st.spinner("Analisando o produto..."):
-                    bruto = (classificar_simulado if modo == "SIMULADA" else classificar_gemini)(verif.entrada)
-                    st.session_state.resultado, st.session_state.conferencia = conferir(
-                        conferir_resposta(bruto, modo), verif.entrada.ncm)
+                    sug_ia = (lt.sugestao_simulada(verif.entrada) if modo == "SIMULADA"
+                              else conferir_resposta(classificar_gemini(verif.entrada), modo))
+                    st.session_state.resultado, st.session_state.conferencia = conferir(sug_ia, verif.entrada.ncm)
             except IAIndisponivel as erro:
                 st.session_state.resultado = None
                 st.session_state.falha_ia = str(erro)
@@ -292,8 +300,11 @@ with aba_produto:
                 with st.expander("Ver o prompt enviado (prompt V3)"):
                     st.code(prompt, language=None)
                 if st.session_state.get("resultado") is None and st.session_state.get("falha_ia") and enviar:
-                    st.error(f"IA indisponível: {st.session_state.falha_ia}. Nada foi sugerido. "
-                             "Tente de novo ou use o modo Manual na barra lateral.")
+                    if modo == "SIMULADA":
+                        st.warning(f"{st.session_state.falha_ia}. Nada foi sugerido.")
+                    else:
+                        st.error(f"IA indisponível: {st.session_state.falha_ia}. Nada foi sugerido. "
+                                 "Tente de novo ou use o modo Manual na barra lateral.")
 
         sug = st.session_state.get("resultado")
         conf = st.session_state.get("conferencia")

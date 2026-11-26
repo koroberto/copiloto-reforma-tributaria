@@ -14,10 +14,10 @@ import csv
 import io
 import re
 import unicodedata
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 from pathlib import Path
 
-from copiloto.enquadramento import (REGRAS_V3, Entrada, IAIndisponivel, Sugestao, chamar_gemini,
+from copiloto.enquadramento import (CASOS_DE_TESTE, REGRAS_V3, Entrada, IAIndisponivel, Sugestao, chamar_gemini,
                                     classificar_simulado, conferir_resposta, formatar_ncm,
                                     verificar_entrada)
 from copiloto.nfe import ler_nfe
@@ -209,18 +209,50 @@ def _gravadas_do_exemplo() -> dict[tuple[str, str], Sugestao]:
     return {(i.entrada.descricao.lower(), i.ncm): sugs[i.id] for i in itens if i.id in sugs}
 
 
+def _chave_demo(descricao: str, ncm: str) -> tuple[str, str]:
+    """Chave tolerante: sem acento, sem caixa, sem pontuação e sem espaços (\"500 g\" = \"500G\")."""
+    sem_acento = unicodedata.normalize("NFKD", descricao or "").encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z0-9]", "", sem_acento.lower()), re.sub(r"\D", "", ncm or "")
+
+
+def produtos_simulados() -> list[tuple[str, str]]:
+    """Produtos com resposta gravada do Gemini: os casos T1 a T6 e o cadastro de exemplo."""
+    produtos = [(desc, ncm) for _, _, desc, ncm, _ in CASOS_DE_TESTE]
+    if CADASTRO_EXEMPLO.exists():
+        for i in preparar(ler_planilha(CADASTRO_EXEMPLO.read_bytes(), CADASTRO_EXEMPLO.name)):
+            produtos.append((i.descricao, formatar_ncm(i.ncm) if i.ncm else ""))
+    return produtos
+
+
+def sugestao_simulada(entrada) -> Sugestao:
+    """Modo Simulada para um produto: resposta gravada dos casos de teste ou do cadastro de exemplo."""
+    try:
+        return conferir_resposta(classificar_simulado(entrada), "SIMULADA")
+    except IAIndisponivel:
+        pass
+    alvo = _chave_demo(entrada.descricao, entrada.ncm)
+    for _, _, desc, ncm, _ in CASOS_DE_TESTE:
+        if _chave_demo(desc, ncm) == alvo:
+            return conferir_resposta(classificar_simulado(Entrada(desc.lower(), re.sub(r"\D", "", ncm))), "SIMULADA")
+    for (desc, ncm), sug in _gravadas_do_exemplo().items():
+        if _chave_demo(desc, ncm) == alvo:
+            return replace(sug)
+    raise IAIndisponivel("Modo de demonstração: só há resposta gravada do Gemini para os 6 casos de teste e os "
+                         "34 produtos do cadastro de exemplo. Escolha um deles em \"Carregar um caso de teste\" "
+                         "ou troque para o modo Manual na barra lateral")
+
+
 def classificar_lote(itens: list[ItemLote], modo: str, resposta_manual: str | None = None,
                      chamar=chamar_gemini) -> list[str]:
     """Preenche a sugestão de cada item e decide o que é automático e o que vai para a fila."""
     validos = [i for i in itens if i.entrada]
     avisos: list[str] = []
     if modo == "SIMULADA":
-        gravadas = _gravadas_do_exemplo()
         for i in validos:
             try:
-                i.sugestao = conferir_resposta(classificar_simulado(i.entrada), "SIMULADA")
+                i.sugestao = sugestao_simulada(i.entrada)
             except IAIndisponivel:
-                i.sugestao = gravadas.get((i.entrada.descricao.lower(), i.ncm))
+                i.sugestao = None
         sem = sum(1 for i in validos if i.sugestao is None)
         if sem:
             avisos.append(f"{sem} item(ns) sem resposta simulada (só há gravação para o cadastro de exemplo e "
