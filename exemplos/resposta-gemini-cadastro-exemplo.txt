@@ -1,0 +1,36 @@
+# Resposta real do Gemini (app web, modo "Auto", conta pessoal) ao prompt V3 em lote para
+# exemplos/cadastro-distribuidora-ficticia.csv, em 25/11/2026. Usada pelo modo Simulada.
+# O item 34 (escova com NCM de 6 dígitos) não foi enviado: a verificação da entrada barrou antes da IA.
+1 | ALIQUOTA_ZERO | alta | Arroz beneficiado na NCM 1006.30.21 integra a Cesta Básica Nacional.
+2 | ALIQUOTA_ZERO | alta | Feijão comum na NCM 0713.33.99 compõe a Cesta Básica Nacional.
+3 | ALIQUOTA_ZERO | alta | Leite fluido na NCM 0401.20.10 consta na Cesta Básica Nacional.
+4 | ALIQUOTA_ZERO | alta | Café torrado e moído na NCM 0901.21.00 integra a Cesta Básica Nacional.
+5 | ALIQUOTA_ZERO | alta | Açúcar na NCM 1701.14.00 integra a Cesta Básica Nacional.
+6 | REDUCAO_60 | alta | Óleo de soja na NCM 1507.90.11 enquadra-se como óleo vegetal do Anexo VII.
+7 | PADRAO | alta | Margarina na NCM 1517.10.00 não consta nas listas de alíquota zero ou redução de 60%.
+8 | REDUCAO_60 | alta | Mel natural na NCM 0409.00.00 consta entre os alimentos do Anexo VII.
+9 | REDUCAO_60 | alta | Sabonete na NCM 3401.11.90 é um dos itens de higiene do Anexo VIII.
+10 | REDUCAO_60 | alta | Creme dental na NCM 3306.10.00 é um dos itens de higiene do Anexo VIII.
+11 | REDUCAO_60 | alta | Papel higiênico na NCM 4818.10.00 é um dos itens de higiene do Anexo VIII.
+12 | REDUCAO_60 | alta | Água sanitária na NCM 3808.94.19 consta entre os itens de limpeza do Anexo VIII.
+13 | REDUCAO_60 | alta | Fralda infantil na NCM 9619.00.00 é um dos itens do Anexo VIII com redução de 60%.
+14 | ALIQUOTA_ZERO | alta | Absorvente higiênico na NCM 9619.00.00 tem alíquota zero conforme o art. 147.
+15 | ALIQUOTA_ZERO | alta | Ovos frescos na NCM 0407.21.00 constam no Anexo XV.
+16 | ALIQUOTA_ZERO | alta | Banana fresca na NCM 0803.90.00 enquadra-se nas frutas frescas do Anexo XV.
+17 | ALIQUOTA_ZERO | alta | Queijo muçarela na NCM 0406.10.10 integra a Cesta Básica Nacional.
+18 | ALIQUOTA_ZERO | alta | Carne bovina resfriada na NCM 0201.30.00 consta na Cesta Básica Nacional.
+19 | ALIQUOTA_ZERO | alta | Massa não cozida nem recheada na NCM 1902.19.00 integra a Cesta Básica Nacional.
+20 | REDUCAO_60 | alta | Pão de forma na NCM 1905.90.10 consta entre os alimentos do Anexo VII.
+21 | REDUCAO_60 | alta | Extrato de tomate na NCM 2002.90.00 consta entre os alimentos do Anexo VII.
+22 | REDUCAO_60 | alta | Leite fermentado na NCM 0403.90.00 consta entre os alimentos do Anexo VII.
+23 | REDUCAO_60 | alta | Suco de laranja sem açúcar na NCM 2009.12.00 consta entre os alimentos do Anexo VII.
+24 | PADRAO | alta | Shampoo na NCM 3305.10.00 não está no Anexo VIII e segue a tributação padrão.
+25 | PADRAO | alta | Desodorante na NCM 3307.20.10 não está no Anexo VIII e segue a tributação padrão.
+26 | PADRAO | alta | Detergente líquido na NCM 3402.50.00 não está no Anexo VIII e segue a tributação padrão.
+27 | PADRAO | alta | Refrigerante na NCM 2202.10.00 não consta nas listas de benefício informadas.
+28 | PADRAO | alta | Biscoito recheado na NCM 1905.31.00 não consta nas listas de benefício informadas.
+29 | PADRAO | alta | Água mineral na NCM 2201.10.00 não consta nas listas de benefício informadas.
+30 | PADRAO | alta | Ração para cães na NCM 2309.10.00 não consta nas listas de benefício informadas.
+31 | REVISAO_HUMANA | baixa | Descrição de shampoo infantil não corresponde ao NCM 1006.30.21 de arroz.
+32 | REVISAO_HUMANA | baixa | Descrição genérica de kit cesta festiva e NCM ausente impedem o enquadramento direto.
+33 | REVISAO_HUMANA | baixa | Descrição vaga de produto diverso exige revisão humana frente ao NCM 3924.10.00.

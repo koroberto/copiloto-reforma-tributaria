@@ -23,6 +23,18 @@ Toda sugestão de enquadramento passa por **revisão humana do contador**.
 
 A sugestão da IA é conferida com a **tabela oficial da Receita** (NCM por anexo da LC 214/2025), tirada da calculadora de código aberto que a Receita publicou no GitHub em novembro de 2026 (licença MIT, sem efeito normativo). Redução de alíquota sem respaldo na tabela vai para revisão; padrão com NCM que aparece em algum anexo gera alerta. Para atualizar a tabela: `python scripts/tabela_receita.py <clone-da-calculadora>`.
 
+## Uso no dia a dia: o cadastro inteiro (lote)
+
+A aba "Cadastro do cliente (lote)" é o fluxo principal. O contador envia o cadastro de produtos exportado do ERP (CSV ou Excel) ou os XMLs das notas. Para cada produto:
+
+1. a entrada é verificada antes da IA;
+2. a IA sugere o enquadramento, com todos os itens num prompt só;
+3. a sugestão é conferida com a tabela oficial da Receita.
+
+Quando a tabela e a IA concordam, com confiança alta e um único cClassTrib possível, o item é aprovado sozinho e marcado como "automático". O resto vai para uma fila de revisão, com o motivo escrito. A planilha com o cClassTrib de cada produto só é liberada quando a fila zera.
+
+Para testar sem chave de API, use o modo Simulada com o cadastro de exemplo (`exemplos/cadastro-distribuidora-ficticia.csv`, 34 produtos). Ele usa a resposta real do Gemini gravada em `exemplos/resposta-gemini-cadastro-exemplo.txt`: 27 itens são aprovados automaticamente e 7 vão para a fila. Requisitos em EARS e a tabela requisito → teste: [docs/requisitos-ears.md](docs/requisitos-ears.md).
+
 ## Recorte do MVP
 
 Um regime (Lucro Presumido ou Real, a decidir), um setor (ex.: distribuição) e um ano-alvo da simulação. Fluxo:
@@ -48,6 +60,7 @@ XMLs NF-e + cadastro de produtos
 ```bash
 uv venv && uv pip install -r requirements.txt
 uv run pytest                 # testes
+uv run mutmut run && uv run mutmut results   # teste de mutação (força dos testes)
 uv run streamlit run app.py   # MVP em http://localhost:8501
 ```
 
@@ -56,9 +69,11 @@ Integração automática com o Gemini (opcional): `export GEMINI_API_KEY=...` an
 ## Estrutura
 
 ```
-app.py                  interface Streamlit do MVP (Aula 04)
+app.py                  interface Streamlit: aba do lote e aba de um produto passo a passo
 copiloto/enquadramento.py  verificação da entrada, prompt V3, conferência da resposta, IA simulada/manual/integrada
 copiloto/tabela_oficial.py confere a sugestão da IA com a tabela oficial da Receita (NCM por anexo da LC 214)
+copiloto/lote.py        cadastro inteiro: leitura de CSV/XLSX/XML, prompt em lote, aprovação automática, fila e planilha de saída
+exemplos/               cadastro fictício de distribuidora e a resposta real do Gemini a ele (modo Simulada)
 scripts/tabela_receita.py  extrai essa tabela da calculadora oficial (github.com/ReceitaFederal/calculadora-rtc-regime-regular)
 dados/receita/          tabela extraída (CSV) e origem.json com o commit da Receita usado
 copiloto/nfe.py         leitura do XML da NF-e (itens, NCM, CFOP, valores e tributos)

@@ -17,6 +17,33 @@ from copiloto.enquadramento import Sugestao
 
 PASTA = Path(__file__).resolve().parent.parent / "dados" / "receita"
 CATEGORIA_POR_REDUCAO = {100.0: "ALIQUOTA_ZERO", 60.0: "REDUCAO_60"}
+CCLASSTRIB_PADRAO = ("000001", "Situações tributadas integralmente pelo IBS e CBS.")
+
+# Tratamentos que dependem de quem compra ou da operação, e não só do produto. No recorte do MVP
+# (distribuidora vendendo para empresas e consumidores) eles não são atribuídos automaticamente.
+DEPENDE_DA_OPERACAO = {
+    "200005": "dispositivo médico vendido a órgão público ou entidade de saúde imune",
+    "200008": "dispositivo de acessibilidade comprado por órgão público",
+    "200011": "nutrição enteral ou parenteral comprada por órgão público",
+    "200038": "insumo agropecuário vendido a produtor rural",
+    "515001": "insumo agropecuário com diferimento",
+    "200039": "produção artística, cultural ou de eventos",
+    "200043": "bens e serviços de soberania vendidos à administração pública",
+    "200044": "segurança da informação e cibernética",
+}
+
+# NCMs em que vale um tratamento que a calculadora não liga a NCM (cClassTrib definido pelo produto,
+# não pela lista de NCM): a tabela sozinha não basta, então esses itens sempre passam pelo contador.
+FORA_DA_TABELA = {
+    "9619": "absorventes e tampões higiênicos têm alíquota zero (art. 147, cClassTrib 200013) e dividem o NCM "
+            "com as fraldas (Anexo VIII); a tabela por NCM não separa os dois",
+    "30": "medicamentos registrados na Anvisa (cClassTrib 200009 ou 200032) não estão na tabela por NCM",
+}
+
+
+def fora_da_tabela(ncm: str) -> str | None:
+    """Aviso quando o NCM pode ter um tratamento que a tabela por NCM não mostra."""
+    return next((aviso for prefixo, aviso in FORA_DA_TABELA.items() if ncm.startswith(prefixo)), None) if ncm else None
 
 
 @dataclass(frozen=True)
@@ -30,6 +57,10 @@ class Tratamento:
     @property
     def categoria(self) -> str | None:
         return CATEGORIA_POR_REDUCAO.get(self.reducao_pct)
+
+    @property
+    def depende_da_operacao(self) -> bool:
+        return self.cclasstrib in DEPENDE_DA_OPERACAO
 
 
 @dataclass
@@ -83,30 +114,43 @@ def _anexos(ts: list[Tratamento]) -> str:
 
 
 def conferir(sugestao: Sugestao, ncm: str) -> tuple[Sugestao, Conferencia]:
-    """Confere a categoria sugerida com a tabela. Redução sem respaldo na tabela vira REVISAO_HUMANA."""
+    """Confere a categoria sugerida com a tabela. Redução sem respaldo na tabela vira REVISAO_HUMANA.
+
+    Tratamentos que dependem de quem compra (ex.: órgão público, produtor rural) não confirmam
+    sozinhos uma redução: no recorte do MVP a distribuidora vende para empresas e consumidores.
+    """
     if not ncm:
         return sugestao, Conferencia("NAO_CONFERIDO", "Sem NCM, não há o que conferir na tabela oficial.")
 
     cands = candidatos(ncm)
+    do_produto = [t for t in cands if not t.depende_da_operacao]
     cat = sugestao.enquadramento
-    mesmos = [t for t in cands if t.categoria == cat]
+    mesmos = [t for t in do_produto if t.categoria == cat]
 
     if cat in ("ALIQUOTA_ZERO", "REDUCAO_60"):
         if mesmos:
             codigos = ", ".join(sorted({t.cclasstrib for t in mesmos}))
             return sugestao, Conferencia(
                 "CONFERE", f"A tabela oficial prevê {cat} para este NCM ({_anexos(mesmos)}; cClassTrib {codigos}).", cands)
-        msg = (f"A IA sugeriu {cat}, mas a tabela oficial não prevê esse tratamento para o NCM. "
-               + (f"Para ele a tabela só prevê: {_anexos(cands)}." if cands else "O NCM não está em nenhum anexo com redução."))
+        condicionais = [t for t in cands if t.categoria == cat]
+        if condicionais:
+            msg = (f"A IA sugeriu {cat}, mas para este NCM a tabela oficial só prevê esse tratamento numa operação "
+                   f"específica ({'; '.join(sorted({DEPENDE_DA_OPERACAO[t.cclasstrib] for t in condicionais}))}).")
+        else:
+            msg = (f"A IA sugeriu {cat}, mas a tabela oficial não prevê esse tratamento para o NCM. "
+                   + (f"Para ele a tabela só prevê: {_anexos(cands)}." if cands else "O NCM não está em nenhum anexo com redução."))
         nova = replace(sugestao, enquadramento="REVISAO_HUMANA", confianca="baixa",
                        alertas=sugestao.alertas + ["Sem respaldo na tabela oficial: encaminhado para revisão."])
         return nova, Conferencia("DIVERGE", msg, cands)
 
     if cat == "PADRAO":
-        if not cands:
-            return sugestao, Conferencia("CONFERE", "O NCM não está em nenhum anexo com redução: padrão é coerente.")
+        if not do_produto:
+            extra = (f" Tratamentos que dependem do comprador ({_anexos(cands)}) não foram considerados."
+                     if cands else "")
+            return sugestao, Conferencia("CONFERE", "O NCM não está em nenhum anexo com redução para o produto: "
+                                                    "padrão é coerente." + extra, cands)
         return sugestao, Conferencia(
-            "ATENCAO", f"O NCM aparece na tabela oficial ({_anexos(cands)}). Confira se o produto se encaixa "
+            "ATENCAO", f"O NCM aparece na tabela oficial ({_anexos(do_produto)}). Confira se o produto se encaixa "
                        "em algum desses tratamentos antes de aceitar o padrão.", cands)
 
     if cat == "REGIME_ESPECIFICO":

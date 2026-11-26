@@ -5,10 +5,11 @@ resposta → sugestão para o contador decidir.
 
 A classificação pode vir de três jeitos, sempre identificados na tela:
 - SIMULADA: respostas do Gemini gravadas nos testes T1 a T6 da Aula 03 (prompt V2).
-
-Depois da IA, copiloto/tabela_oficial.py confere a categoria com a tabela oficial da Receita.
 - MANUAL: a pessoa cola o prompt num chat de IA e cola a resposta de volta.
 - INTEGRADA: chamada automática à API do Gemini, se houver GEMINI_API_KEY.
+
+Depois da IA, copiloto/tabela_oficial.py confere a categoria com a tabela oficial da Receita.
+O processamento de um cadastro inteiro (lote) fica em copiloto/lote.py.
 """
 
 from __future__ import annotations
@@ -35,15 +36,17 @@ ROTULOS = {
 # conferidos nos Anexos I, VII, VIII e XV da LC 214/2025, pela base da calculadora oficial da Receita.
 # A V2 punha carnes, queijos e massas em REDUCAO_60 (são Anexo I, alíquota zero) e tratava qualquer
 # produto de higiene como REDUCAO_60 (o Anexo VIII é uma lista fechada de 7 itens).
-PROMPT_V3 = """Você auxilia um escritório contábil a enquadrar produtos fictícios na Reforma Tributária (IBS e CBS, LC 214/2025).
+REGRAS_V3 = """Você auxilia um escritório contábil a enquadrar produtos fictícios na Reforma Tributária (IBS e CBS, LC 214/2025).
 Tarefa: com base na descrição e no NCM do produto, sugira um enquadramento entre as opções abaixo.
 Opções:
-ALIQUOTA_ZERO: Cesta Básica Nacional (Anexo I: arroz, feijão, leite, manteiga, carnes, peixes, queijos tipo mozarela/minas/prato/coalho/ricota/requeijão/provolone/parmesão, massas não cozidas nem recheadas (1902.1), café, açúcar, farinha de trigo, pão francês, sal, mate) e hortícolas, frutas frescas e ovos (Anexo XV).
+ALIQUOTA_ZERO: Cesta Básica Nacional (Anexo I: arroz, feijão, leite, manteiga, carnes, peixes, queijos tipo mozarela/minas/prato/coalho/ricota/requeijão/provolone/parmesão, massas não cozidas nem recheadas (1902.1), café, açúcar, farinha de trigo, pão francês, sal, mate), hortícolas, frutas frescas e ovos (Anexo XV) e absorventes e tampões higiênicos (art. 147).
 REDUCAO_60: alimentos do Anexo VII (ex.: mel, crustáceos, leite fermentado, óleos vegetais, pão de forma, extrato de tomate, sucos e polpas sem açúcar), somente os 7 itens de higiene e limpeza do Anexo VIII (sabonete, creme dental, escova de dentes, papel higiênico, água sanitária, sabão em barra, fraldas), medicamentos e dispositivos médicos.
 PADRAO: demais produtos, sem redução (ex.: shampoo, desodorante e detergente não estão no Anexo VIII).
 REGIME_ESPECIFICO: combustíveis e outros bens com regime próprio na lei.
 REVISAO_HUMANA: descrição vaga, produto que mistura itens de enquadramentos diferentes, NCM ausente ou NCM que não corresponde à descrição.
-Use apenas as informações do produto. Não invente características que não estão na descrição.
+Use apenas as informações do produto. Não invente características que não estão na descrição."""
+
+PROMPT_V3 = REGRAS_V3 + """
 Responda exatamente em três linhas, sem nenhum texto antes ou depois delas:
 enquadramento: [uma das opções]
 confianca: [alta, media ou baixa; em REVISAO_HUMANA use sempre baixa]
@@ -210,12 +213,18 @@ GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/{modelo}:g
 def classificar_gemini(entrada: Entrada, chave: str | None = None, modelo: str | None = None,
                        timeout: float = 30) -> str:
     """Integração automática (opcional). Sem chave ou com erro, levanta IAIndisponivel."""
+    return chamar_gemini(montar_prompt(entrada), chave, modelo, timeout)
+
+
+def chamar_gemini(prompt: str, chave: str | None = None, modelo: str | None = None,
+                  timeout: float = 30) -> str:
+    """Envia um prompt ao Gemini e devolve o texto. Sem chave ou com erro, levanta IAIndisponivel."""
     chave = chave or os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
     if not chave:
         raise IAIndisponivel("Integração sem chave: defina GEMINI_API_KEY ou use o modo manual.")
     modelo = modelo or os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
     corpo = json.dumps({
-        "contents": [{"parts": [{"text": montar_prompt(entrada)}]}],
+        "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"temperature": 0},
     }).encode()
     pedido = urllib.request.Request(GEMINI_URL.format(modelo=modelo), data=corpo, method="POST",

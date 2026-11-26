@@ -5,3 +5,4 @@ __pycache__/
 dados/*
 !dados/.gitkeep
 !dados/receita/
+mutants/
